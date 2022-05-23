@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int summa = 2500;
+        int amount = 2500;
         boolean paimant = true;
 
         int bonus;
@@ -10,7 +10,7 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int miles = summa / bonus;
+        int miles = amount / bonus;
         System.out.println("Начисленно бонусных милей:"  + miles);
 
         // Объявляете переменные для входных данных и
