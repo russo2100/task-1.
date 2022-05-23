@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         int summa = 2500;
-        boolean spend = true;
+        boolean paimant = true;
 
         int bonus;
-        if (spend) {
+        if (paimant) {
             bonus = 20;
         } else {
             bonus = 0;
